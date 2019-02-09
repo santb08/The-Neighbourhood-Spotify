@@ -1,0 +1,133 @@
+:root{
+    --col1-grad1: #304352;
+    --col2-grad1: #d7d2cc;
+    --col1-grad2: #141E30;
+    --col2-grad2: #243B55;
+    --col1-grad3: #232526;
+    --col2-grad3: #414345
+}
+
+body {
+  overflow-y: hidden;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background: linear-gradient(-120deg, var(--col1-grad3), var(--col2-grad3));
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+  header h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: white;
+  }
+
+p {
+  font-size: 20px;
+  font-family:  'Courgette', cursive;
+  /* font-family: 'Caveat', cursive; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.white {
+  color: #FFFFFF
+}
+
+.songs-info-container{
+  width: 30%;
+  height: 85%;
+  background: #111111;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  top: 15%;
+}
+
+.top-tracks-container{
+  width: 100%;
+  height: 50%;
+  background: white;
+  overflow-y: scroll;
+}
+
+.albums-container{
+  width: 100%;
+  height: 50%;
+  background: black;
+  overflow-y: scroll;
+}
+
+.info-container{
+  width: 70%;
+  height: 85%;
+  background: #999999;
+  position: absolute;
+  bottom: auto;
+  left: 30%;
+  top: 15%;
+  overflow-y: scroll;
+  color: black;
+}
+
+#gallery {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-info {
+    text-align: center;
+    padding-top: 0;
+}
+
+.gallery-info  p {
+  font-size: 16px;
+  font-family: 'EB Garamond', serif;
+  color: white;
+}
+
+#gallery img {
+  width: 25%;
+  height: auto;
+  margin: 1px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.play-icon {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.song-title {
+  all:inherit;
+  width: 80%;
+  overflow: visible;
+}
+
+.album {
+  color: white;
+}
+
+.album-logo {
+  width: 50%;
+  height: 50%;
+}

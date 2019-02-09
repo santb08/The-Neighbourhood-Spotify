@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css"> </link>
+    <link rel="stylesheet" type="text/css" href="title-effect.css"> </link>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Courgette|Dancing+Script|EB+Garamond|Gloria+Hallelujah|Indie+Flower|Lobster|Pacifico|Rajdhani|Righteous|Shadows+Into+Light" rel="stylesheet">
+    <script src="music.js"></script>
+    <title>The Neighbourhood</title>
+  </head>
+  <body style="display: list-item;">
+      <header>
+         <h1>The Neighbourhood</h1>
+      </header>
+      <div class="songs-info-container">
+        <div class="top-tracks-container">
+          <li id="top-tracks"></li>
+        </div>
+        <div class="albums-container">
+          <li id="albums"></li>
+        </div>
+      </div>
+      <div class="info-container">
+        <div class="info">
+          <h3 style="font-family: 'Shadows Into Light', cursive; font-size: 30px; text-align: center"> Basic Info </h3>
+          <table style="width:100%">
+            <tr>
+              <td style="background: white; width:50%">
+                <p>Followers</p>
+              </td>
+              <td style="background: black; width:50%; align-items: center;" >
+                <p style="color: white" id="followers"> </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="background: black; width:50%">
+                <p style="color: white"> Genres (According to Spotify): </p>
+              </td>
+              <td style="background: white; width:50%">
+                <li id="li-genres"></li>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="info">
+          <h3 style="font-family: 'Shadows Into Light', cursive; font-size: 30px; text-align: center"> Biography (By Matt Collar)</h3>
+
+          <p>
+            Mixing moody, '90s-style alt-rock with hip-hop and electronic flourishes, California's the Neighbourhood broke through with their debut single, "Sweater Weather." The track, which was included on the group's 2012 I'm Sorry... EP, first gained momentum online before hitting number one on Billboard's alternative chart and going platinum. The band has continued to explore a similarly atmospheric, cross-pollinated blend of sounds, even digging into synth-heavy pop on 2018's The Neighbourhood.
+          </p>
+          <p class="white">
+            Formed in Los Angeles in 2011, the band centers around lead singer Jesse James Rutherford, guitarists Jeremy Freedman and Zach Abels, bassist Michael Margott, and drummer Brandon Fried. In 2012, the Neighbourhood released the EP I'm Sorry..., featuring such singles as "Sweater Weather" and "Female Robbery." The songs gained considerable attention online and helped build interest in the group. By 2013, "Sweater Weather" had topped the Billboard Alternative chart and solidified the group's buzzworthy status.
+          </p>
+          <p>
+            I Love You Two more EPs followed in 2013, leading up to the release of their full-length debut I Love You. Buoyed by the continued interest in "Sweater Weather," as well as the single "Afraid," the album peaked at number 25 on the Billboard 200 and number five on the Top Alternative Albums chart. The following year, the group's long-delayed mixtape album, #000000 & #FFFFFF, appeared as a free download online. Included on the album was the single "icanteven," featuring French Montana.
+            Wiped Out! In 2015, the Neighbourhood returned with their sophomore full-length album, the Justyn Pilbrow-produced Wiped Out! The album peaked at number one on Billboard's Top Alternative Albums chart and spawned several singles, including "R.I.P. 2 My Youth," "The Beach," and "Daddy Issues." The Hard EP followed in September 2017 and cracked the Billboard 200 as a surprise release. In 2018, the band delivered its third album, the eponymously titled The Neighbourhood, which was anchored by the single "Scary Love."
+          </p>
+        </div>
+        <div class="gallery">
+          <div id="gallery"></div>
+          <div class="gallery-info">
+            <p>Photos obtained with spotify API response according to The Neighbourhood artist ID response</p>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+
+  </body>
+</html>
